@@ -9,7 +9,7 @@ when they are in different source files.
 
 Let's show this by using programs:
 
-A] Possible Failed case: Global variables
+A] Possible Failed case: Global variables ==> See all FailedXXX.hpp/cpp files
 
  1) FailedMain.cpp has a global variable - FailedEgg oFE
  2) FailedEgg.cpp has a global variable  - FailedChicken oFC and FailedEgg constructor calls oFC.displayChicken()
@@ -22,7 +22,7 @@ A] Possible Failed case: Global variables
 
 What's the solution? 
    
-B] Always Passed case: Solution by Singleton Design Pattern.
+B] Always Passed case: Solution by Singleton Design Pattern ==> See all PassedXXX.hpp/cpp files
    Here, no global variable is created but replaced by Singleton objects.
 
   1) As in A].1) Flow is same but PassedMain.cpp use singleton object of PassedEgg instead of global variable
