@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//No more PassedEgg global variable as in FailedMain.cpp
+//No more PassedEgg global object as in FailedMain.cpp
 int main()
 {
     cout<<"Solution by Singleton Design Pattern: " << endl << endl;
