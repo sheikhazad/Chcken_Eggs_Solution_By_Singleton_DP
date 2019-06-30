@@ -6,7 +6,7 @@
 
 using namespace std;
 
-//No PassedChicken global variable as in FailedEgg.cpp
+//No PassedChicken global object as in FailedEgg.cpp
 
 PassedEgg::PassedEgg(){
 
