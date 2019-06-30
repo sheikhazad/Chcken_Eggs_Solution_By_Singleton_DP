@@ -6,7 +6,7 @@
 using namespace std;
 
 //Global variable - 2
-//If oFC is created (i.e. FailedChicken() constructor is called) before creating any FailedEgg object then program will run.
+//If FailedChicken object oFC is created before creating any FailedEgg object then program will run.
 //But if FailedEgg() constructor is called before creating oFC then program will crash.
 //because FailedEgg() constructor depend on oFC object.
 //Problem: Order of global variables creations in different source files is undefined.
